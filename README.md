@@ -8,7 +8,7 @@ A FastAPI-based service that answers questions using a local markdown knowledge 
 
 ```bash
 #Clone the project
-cd pihex_task/
+cd StructiQ/
 
 #Create a virtual environment
 python -m venv venv && source venv/bin/activate
@@ -19,8 +19,10 @@ pip install -r requirements.txt
 #Start the server
 uvicorn app.main:app --reload
 
-#Visit the port
+#Visit the port(for local environment)
 http://127.0.0.1:8000/docs
+
+#Visit the deployed link
 
 #Example
 Request:- {"question": "What are the API rate limits?"}
