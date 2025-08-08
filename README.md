@@ -19,10 +19,10 @@ pip install -r requirements.txt
 #Start the server
 uvicorn app.main:app --reload
 
-#Visit the port(for local environment)
+#Visit the port(for local environment testing)
 http://127.0.0.1:8000/docs
 
-#Visit the deployed link(for live testing)
+#Visit the deployed link(for live demo)
 https://structured-ai-api.onrender.com/docs
 
 #Example
