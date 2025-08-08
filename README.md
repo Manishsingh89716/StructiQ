@@ -22,7 +22,8 @@ uvicorn app.main:app --reload
 #Visit the port(for local environment)
 http://127.0.0.1:8000/docs
 
-#Visit the deployed link
+#Visit the deployed link(for live testing)
+https://structured-ai-api.onrender.com/docs
 
 #Example
 Request:- {"question": "What are the API rate limits?"}
